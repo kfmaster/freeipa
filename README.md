@@ -1,8 +1,10 @@
 ##A clone from https://github.com/adelton/docker-freeipa.git . Add function to import users/groups.
-##User data is provided in a ipa-user-data file in yaml format, then add-ipa-user-data.sh will be called
-##in the entrypoint to create the users,groups,roles defined in the yaml file.
+
+User data is provided in a ipa-user-data file in yaml format, then add-ipa-user-data.sh will be called
+in the entrypoint to create the users,groups,roles defined in the yaml file.
 
 #Following is from the original git repo of adelton/docker-freeipa 
+
 # FreeIPA server in Docker
 
 This repository contains the Dockerfile and associated assets for
